@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card-component {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 345px;
+    background-color: white;
+    height: 600px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.card-component picture img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.content {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #8a8a8a;
+    padding-bottom: 15px;
+}
+
+.content h1 {
+    font-family: 'Fraunces', serif;
+    padding-bottom: 20px;
+    margin: 0;
+    line-height: 32px;
+
+}
+.content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #8a8a8a;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.content .price-section .active-price {
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+
+}
+.content .price-section .old-price {
+    text-decoration-line: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+.content .price-section {
+    width: 190px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.content button {
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content button span {
+    display: flex;
+    width: 105px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-component picture img {
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+    .card-component {
+        padding: 0;
+        width: 600px;
+        height: unset;
+        display: flex;
+    }
+    .content {
+        padding: 30px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
