@@ -114,5 +114,8 @@ body {
         flex-direction: column;
         justify-content: space-between;
     }
+    .content h1 {
+        max-width: 240px;
+    }
 
 }
