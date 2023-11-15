@@ -108,7 +108,7 @@ body {
         display: flex;
     }
     .content {
-        padding: 30px;
+        padding: 30px 30px 30px 25px;
         width: 500px;
         display: flex;
         flex-direction: column;
