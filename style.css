@@ -30,7 +30,7 @@ body {
 
 .content > span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 4px;
     color: #8a8a8a;
     padding-bottom: 15px;
@@ -66,7 +66,7 @@ body {
 }
 
 .content .price-section {
-    width: 190px;
+    width: 195px;
     display: flex;
     align-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ body {
 }
 
 .content button {
-    height: 50px;
+    height: 48px;
     background-color: hsl(158, 36%, 37%);
     color: white;
     outline: none;
@@ -91,7 +91,7 @@ body {
 
 .content button span {
     display: flex;
-    width: 105px;
+    width: 110px;
     align-items: center;
     justify-content: space-between;
 }
@@ -118,4 +118,5 @@ body {
     .content h1 {
         max-width: 240px;
     }
+
 }
