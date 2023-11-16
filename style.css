@@ -19,7 +19,7 @@ body {
 .card-component picture img {
     width: 100%;
     border-radius: 10px 10px 0 0;
-
+    filter: brightness(90%);
 }
 
 .content {
@@ -108,7 +108,7 @@ body {
         display: flex;
     }
     .content {
-        padding: 30px 30px 30px 35px;
+        padding: 35px 25px 30px 40px;
         width: 500px;
         display: flex;
         flex-direction: column;
