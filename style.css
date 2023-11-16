@@ -30,7 +30,7 @@ body {
 
 .content > span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 4px;
     color: #8a8a8a;
     padding-bottom: 15px;
@@ -94,18 +94,20 @@ body {
     width: 110px;
     align-items: center;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 768px) {
     .card-component picture img {
-        height: 453px;
+        height: 450px;
         width: 302px;
         border-radius: 10px 0 0 10px;
+        filter: brightness(0.9);
     }
     .card-component {
         padding: 0;
         width: 604px;
-        height: 452px;
+        height: 450px;
         display: flex;
     }
     .content {
